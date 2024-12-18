@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">App_TDBD</string>
+
+    <!-- Placeholders / Hints -->
+    <string name="hint_numeroControl">Número de Control</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_primerAp">Primer Apellido</string>
+    <string name="hint_segundoAp">Segundo Apellido</string>
+    <string name="hint_carrera">Carrera</string>
+    <string name="hint_semestre">Semestre</string>
+    <string name="hint_edad">Edad</string>
+    <string name="hint_promedio">Promedio</string>
+
+    <!-- Botones -->
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_acceder">Acceder</string>
+    <string name="btn_altas">Agregar</string>
+    <string name="btn_bajas">Eliminar</string>
+    <string name="btn_cambios">Modificar</string>
+    <string name="btn_consultas">Buscar</string>
+    <string name="btn_modificar">Modificar</string>
+    <string name="btn_buscar">Buscar</string>
+
+    <!-- Títulos -->
+    <string name="title_altas">Agregar Alumno</string>
+    <string name="title_bajas">Eliminar Alumno</string>
+    <string name="txt_modificar">Modificar Alumno</string>
+    <string name="txt_buscar_cons">Buscar Alumno</string>
+
+    <!-- Campos -->
+    <string name="txt_nombre">Nombre(s):</string>
+    <string name="txt_primerAp">Apellido:</string>
+    <string name="txt_segundoAp">Segundo Apellido:</string>
+    <string name="txt_carrera">Carrera:</string>
+    <string name="txt_semestre">Semestre:</string>
+    <string name="txt_edad">Edad:</string>
+    <string name="txt_promedio">Promedio:</string>
+    <string name="txt_numeroControl">Número de Control:</string>
+    <string name="txt_usuario">Usuario:</string>
+    <string name="txt_contraseña">Contraseña:</string>
+</resources>

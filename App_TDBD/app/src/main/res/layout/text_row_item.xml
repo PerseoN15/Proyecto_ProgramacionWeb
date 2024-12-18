@@ -1,0 +1,72 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Número de Control -->
+        <TextView
+            android:id="@+id/tv_numeroControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Número de Control"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:contentDescription="Número de control del alumno" />
+
+        <!-- Nombre -->
+        <TextView
+            android:id="@+id/tv_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="16sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Nombre completo del alumno" />
+
+        <!-- Carrera -->
+        <TextView
+            android:id="@+id/tv_carrera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carrera"
+            android:textSize="16sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Carrera del alumno" />
+
+        <!-- Semestre -->
+        <TextView
+            android:id="@+id/tv_semestre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semestre"
+            android:textSize="16sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Semestre actual del alumno" />
+
+        <!-- Fecha de Nacimiento -->
+        <TextView
+            android:id="@+id/tv_edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha de nacimiento"
+            android:textSize="16sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="4dp"
+            android:contentDescription="Fecha de nacimiento del alumno" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

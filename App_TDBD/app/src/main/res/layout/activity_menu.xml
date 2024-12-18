@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:backgroundTint="#52BAB0">
+
+    <Button
+        android:id="@+id/btn_altas"
+        android:layout_width="312dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="92dp"
+        android:backgroundTint="#4CAF50"
+        android:onClick="abrirActivities"
+        android:text="Agregar Alumnos"
+        android:textColor="#121111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_bajas"
+        android:layout_width="1dp"
+        android:layout_height="4dp"
+        android:backgroundTint="#F44336"
+        android:onClick="abrirbajas"
+        android:text="@string/btn_bajas"
+        android:textColor="#121111"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <Button
+        android:id="@+id/btn_consultas"
+        android:layout_width="314dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="196dp"
+        android:backgroundTint="#2196F3"
+        android:onClick="abrirConsultas"
+        android:text="Ver Alumnos"
+        android:textColor="#040404"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_altas" />
+
+    <Button
+        android:id="@+id/btn_cambios"
+        android:layout_width="4dp"
+        android:layout_height="5dp"
+        android:backgroundTint="#FFEB3B"
+        android:onClick="abricambios"
+        android:text="@string/btn_cambios"
+        android:textColor="#0E0E0E"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

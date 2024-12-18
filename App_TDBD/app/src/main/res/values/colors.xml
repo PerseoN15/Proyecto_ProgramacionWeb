@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores básicos -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores personalizados -->
+    <color name="primary">#00BCD4</color> <!-- Color primario -->
+    <color name="primaryDark">#0097A7</color> <!-- Color primario oscuro -->
+    <color name="accent">#FFC107</color> <!-- Color de acento -->
+
+    <!-- Colores de botones -->
+    <color name="btn_altas">#4CAF50</color> <!-- Verde para agregar -->
+    <color name="btn_bajas">#F44336</color> <!-- Rojo para eliminar -->
+    <color name="btn_cambios">#FFEB3B</color> <!-- Amarillo para modificar -->
+    <color name="btn_consultas">#2196F3</color> <!-- Azul para buscar -->
+
+    <!-- Colores de fondos -->
+    <color name="background_light">#F5F5F5</color> <!-- Fondo claro -->
+    <color name="background_dark">#303030</color> <!-- Fondo oscuro -->
+
+    <!-- Colores de texto -->
+    <color name="text_primary">#212121</color> <!-- Texto principal -->
+    <color name="text_secondary">#757575</color> <!-- Texto secundario -->
+
+    <!-- Otros colores -->
+    <color name="error">#B00020</color> <!-- Color de error -->
+    <color name="success">#4CAF50</color> <!-- Verde de éxito -->
+</resources>

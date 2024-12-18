@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#256127"
+    tools:context=".ActivityCambios">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/lbl_modificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/txt_modificar"
+            android:textColor="#171717"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Número de Control -->
+        <TextView
+            android:id="@+id/lbl_numeroControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/txt_numeroControl"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/txt_numeroControl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/hint_numeroControl"
+            android:inputType="number"
+            android:enabled="false" />
+
+        <!-- Nombre -->
+        <TextView
+            android:id="@+id/lbl_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/txt_nombre"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/txt_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/hint_nombre"
+            android:inputType="text" />
+
+        <!-- Carrera -->
+        <TextView
+            android:id="@+id/lbl_carrera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/txt_carrera"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spinner_carrera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:entries="@array/carreras" />
+
+        <!-- Fecha de Nacimiento -->
+        <TextView
+            android:id="@+id/lbl_fecha_nacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Fecha de Nacimiento"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/txt_fecha_nacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="DD/MM/AAAA"
+            android:inputType="date" />
+
+        <!-- Semestre -->
+        <TextView
+            android:id="@+id/lbl_semestre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/txt_semestre"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spinner_semestre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:entries="@array/semestres" />
+
+        <!-- Botones -->
+        <Button
+            android:id="@+id/btn_modificar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="guardarCambios"
+            android:text="@string/btn_modificar" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
