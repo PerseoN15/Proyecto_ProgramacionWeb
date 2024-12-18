@@ -1,0 +1,13 @@
+OPTIONS ALL -Indexes
+
+
+RewriteEngine On
+
+RewriteBase /Semestre_Ago_Dic_2024/Proyecto_Final_Septimo/
+
+
+ErrorDocument 403 /Semestre_Ago_Dic_2024/Proyecto_Final_Septimo/error403.html
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ index.php?url=$1 [L,QSA]

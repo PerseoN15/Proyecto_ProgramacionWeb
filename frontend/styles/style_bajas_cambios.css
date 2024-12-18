@@ -1,0 +1,126 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f7;
+    color: #333;
+    margin: 0 !important;
+    padding: 0 !important;
+    padding: 20px;
+}
+
+h3 {
+    color: #003f88;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #003f88 !important;
+    color: #fff !important;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+tr:hover {
+    background-color: #e8f0fe;
+}
+
+.action-buttons a {
+    display: inline-block;
+    
+    padding: 6px 12px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.action-buttons a:hover {
+    transform: scale(1.05);
+}
+
+.action-buttons .detalle {
+    background-color: #0dcaf0;
+}
+
+.action-buttons .editar {
+    background-color: #ffc107;
+}
+
+.action-buttons .eliminar {
+    background-color: #dc3545;
+}
+
+.alert {
+    transition: opacity 0.8s ease-out, transform 0.5s ease-in-out;
+    transform: translateY(0px);
+}
+
+.alert.fade-out {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+/* Estilos del modal */
+.modal-wide {
+    max-width: 600px;
+    margin: auto;
+}
+
+.modal-header {
+    background-color: #003f88;
+    color: white;
+    border-bottom: none;
+}
+
+.modal-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modal-body {
+    background-color: #f8f9fa;
+}
+
+.modal-footer {
+    background-color: #f1f1f1;
+    border-top: none;
+}
+
+.modal-footer button {
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.form-control-sm {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.form-select {
+    font-size: 14px;
+}
